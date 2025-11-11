@@ -1,0 +1,10 @@
+﻿global using BuildingBlocks.CQRS;
+global using MediatR;
+global using Mapster;
+global using FluentValidation;
+global using BuildingBlocks.Behaviors;
+global using BuildingBlocks.Exceptions;
+//global using Library.API.Exceptions;
+global using Marten;
+global using Library.API.Data;
+global using BuildingBlocks.Exceptions.Handler;

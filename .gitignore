@@ -1,0 +1,67 @@
+#---------------------------------------------------------------------------------#
+# Visual Studio / .NET Core / Project Files to Ignore
+#---------------------------------------------------------------------------------#
+
+#########################
+# 1. Visual Studio Cache
+#########################
+
+# Visual Studio User Settings (Hidden folder)
+.vs/
+
+# Solution User Options file (specific to one user)
+*.suo
+
+# Other user configuration files
+*.user
+*.useros
+*.sln.docstates
+
+#########################
+# 2. Build Artifacts
+#########################
+
+# Compiled output folders
+[Bb]in/
+[Oo]bj/
+
+# Intermediate files
+[Dd]ebug/
+[Rr]elease/
+# .NET Core/NuGet cache files
+.nuget/
+
+# Package files
+*.nupkg
+*.snupkg
+*.dll.config
+
+#########################
+# 3. Entity Framework Core
+#########################
+
+# Migration snapshot files if they contain generated code (usually in Infrastructure)
+# If you decide to ignore the entire Migrations folder, add it here, 
+# but usually, you want to track the migration code itself.
+# Migrations/
+
+#########################
+# 4. Logs and Test Results
+#########################
+
+# Log files
+*.log
+log.txt
+[Tt]emp/
+
+# Test results
+TestResults/
+.trx
+
+#########################
+# 5. Backup Files
+#########################
+
+# Backup files
+*~
+*.bak
